@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dabebedb9a28edaa8509e506ef8d5756",
+    "content-hash": "46f6a81cbb80f37da8fc6c506f1a5d9d",
     "packages": [
         {
-            "name": "hellworx/hwx-base-php",
+            "name": "hellworx/base-php",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hellworx/hwx-base-php",
-                "reference": "3e4fea499c2ca0a0232e64d9b50e99fcde02c234"
+                "url": "https://github.com/hellworx/base-php",
+                "reference": "f1e9b49a82a97ecb57ae102d291da05f778bf611"
             },
             "require": {
                 "php": "^7.4 || ^8.0"
@@ -25,19 +25,19 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "HWX\\Base\\": "src/HWX/Base"
+                    "Hellworx\\Base\\": "src/Hellworx/Base"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "HWX\\Base\\Tests\\": "tests/HWX/Base/Tests"
+                    "Hellworx\\Base\\Tests\\": "tests/Hellworx/Base/Tests"
                 }
             },
             "license": [
                 "MIT"
             ],
             "description": "Hellworx Base PHP Library",
-            "time": "2025-12-30T19:22:26+00:00"
+            "time": "2025-12-31T06:52:19+00:00"
         }
     ],
     "packages-dev": [
@@ -1895,7 +1895,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "hellworx/hwx-base-php": 20
+        "hellworx/base-php": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

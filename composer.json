@@ -1,21 +1,21 @@
 {
-    "name": "hellworx/hwx-geodata-php",
+    "name": "hellworx/geodata-php",
     "description": "Hellworx Geodata PHP Library",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "HWX\\Geodata\\": "src/HWX/Geodata"
+            "Hellworx\\Geodata\\": "src/Hellworx/Geodata"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HWX\\Geodata\\Tests\\": "test/HWX/Geodata/Tests"
+            "Hellworx\\Geodata\\Tests\\": "test/Hellworx/Geodata/Tests"
         }
     },
     "require": {
         "php": "^7.4 || ^8.0",
-        "hellworx/hwx-base-php": "dev-main"
+        "hellworx/base-php": "dev-main"
     },
     "require-dev": {
         "phpstan/phpstan": "^2.1",
@@ -28,7 +28,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/hellworx/hwx-base-php"
+            "url": "https://github.com/hellworx/base-php"
         }
     ]
 }

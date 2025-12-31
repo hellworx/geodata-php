@@ -14,18 +14,18 @@ Hellworx Geodata PHP Library - A comprehensive library for working with geospati
 ## Requirements
 
 - PHP ^7.4 || ^8.0
-- hellworx/hwx-base-php
+- hellworx/base-php
 
 ## Installation
 
 ```bash
-composer require hellworx/hwx-geodata-php
+composer require hellworx/geodata-php
 ```
 
 ## Quick Start
 
 ```php
-use HWX\Geodata\Converter\GeoDataConverter;
+use Hellworx\Geodata\Converter\GeoDataConverter;
 
 // Create converter instance
 $converter = new GeoDataConverter();
@@ -56,30 +56,30 @@ $geoJson = $converter->convert($gpxContent, 'GPX', 'GEOJSON');
 ## Core Classes
 
 ### Models
-- `HWX\Geodata\Model\GeoData` - Main container for all geospatial data
-- `HWX\Geodata\Model\GeoPoint` - Geographic point with coordinates and metadata
-- `HWX\Geodata\Model\GeoLineString` - Line string geometry
-- `HWX\Geodata\Model\GeoPolygon` - Polygon geometry
-- `HWX\Geodata\Model\GeoFeature` - Feature with geometry and properties
+- `Hellworx\Geodata\Model\GeoData` - Main container for all geospatial data
+- `Hellworx\Geodata\Model\GeoPoint` - Geographic point with coordinates and metadata
+- `Hellworx\Geodata\Model\GeoLineString` - Line string geometry
+- `Hellworx\Geodata\Model\GeoPolygon` - Polygon geometry
+- `Hellworx\Geodata\Model\GeoFeature` - Feature with geometry and properties
 
 ### Collections
-- `HWX\Geodata\Collection\GeoPointCollection` - Collection of points
-- `HWX\Geodata\Collection\GeoLineStringCollection` - Collection of linestrings
-- `HWX\Geodata\Collection\GeoPolygonCollection` - Collection of polygons
-- `HWX\Geodata\Collection\GeoFeatureCollection` - Collection of features
+- `Hellworx\Geodata\Collection\GeoPointCollection` - Collection of points
+- `Hellworx\Geodata\Collection\GeoLineStringCollection` - Collection of linestrings
+- `Hellworx\Geodata\Collection\GeoPolygonCollection` - Collection of polygons
+- `Hellworx\Geodata\Collection\GeoFeatureCollection` - Collection of features
 
 ### Readers & Writers
-- `HWX\Geodata\Reader\GPXReader` - Read GPX files
-- `HWX\Geodata\Writer\GPXWriter` - Write GPX files
-- `HWX\Geodata\Reader\KMLReader` - Read KML files
-- `HWX\Geodata\Writer\KMLWriter` - Write KML files
-- `HWX\Geodata\Reader\KMZReader` - Read KMZ files
-- `HWX\Geodata\Writer\KMZWriter` - Write KMZ files
-- `HWX\Geodata\Reader\GeoJSONReader` - Read GeoJSON files
-- `HWX\Geodata\Writer\GeoJSONWriter` - Write GeoJSON files
+- `Hellworx\Geodata\Reader\GPXReader` - Read GPX files
+- `Hellworx\Geodata\Writer\GPXWriter` - Write GPX files
+- `Hellworx\Geodata\Reader\KMLReader` - Read KML files
+- `Hellworx\Geodata\Writer\KMLWriter` - Write KML files
+- `Hellworx\Geodata\Reader\KMZReader` - Read KMZ files
+- `Hellworx\Geodata\Writer\KMZWriter` - Write KMZ files
+- `Hellworx\Geodata\Reader\GeoJSONReader` - Read GeoJSON files
+- `Hellworx\Geodata\Writer\GeoJSONWriter` - Write GeoJSON files
 
 ### Converter
-- `HWX\Geodata\Converter\GeoDataConverter` - Unified conversion interface
+- `Hellworx\Geodata\Converter\GeoDataConverter` - Unified conversion interface
 
 ## Examples
 
@@ -121,8 +121,8 @@ make test
 
 This library is a migration of the rnd-geodata-php project with the following changes:
 
-- **Namespace**: Changed from `GeoData\*` to `HWX\Geodata\*`
-- **Dependencies**: Changed from `LosKoderos\Generic\*` to `HWX\Base\*`
+- **Namespace**: Changed from `GeoData\*` to `Hellworx\Geodata\*`
+- **Dependencies**: Changed from `LosKoderos\Generic\*` to `Hellworx\Base\*`
 - **Structure**: Maintained all existing functionality while updating to use Hellworx base components
 
 ## License

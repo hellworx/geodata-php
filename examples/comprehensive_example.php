@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use HWX\Geodata\Converter\GeoDataConverter;
+use Hellworx\Geodata\Converter\GeoDataConverter;
 
 echo "=== GeoData PHP Library - Comprehensive Example ===\n\n";
 
